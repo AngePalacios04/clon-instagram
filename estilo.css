@@ -1,0 +1,149 @@
+
+body{
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    min-width: 1024px;
+    max-width: 1400px;
+    background: #fafafa;
+}
+
+header{
+    width: 60%;
+    margin: auto;
+    transform: translateY(50px);
+    padding: 20px 0;
+}
+.contenedor-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-perfil img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contenedor-cabezera{
+    margin-left: 100px;
+}
+.cabezera1{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.cabezera1 h1{
+    color: #616161;
+    font-weight: 100;
+    font-size: 26px;
+}
+.cabezera1 button{
+    width: 150px;
+    height: 30px;
+    background-color: #DEDEDE;
+    border: solid #dbdbdb 1px;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: #616161;
+}
+.cabezera2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.cabezera2 p{
+    margin-right: 15px;
+}
+.cabezera3 h2,
+.cabezera3 .descripcion1,
+.cabezera3 .descripcion2,
+.cabezera3 .descripcion3,
+.cabezera3 .ideas1
+.cabezera3 .ideas2{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.cabezera3 .descripcion1{
+    color: black;
+}
+.cabezera3 .descripcion2{
+    color: black;
+}
+.cabezera3 .descripcion3{
+    color: black;
+}
+.historias{
+    width: 90px;
+    margin-top: 50px;
+    transform: translateX(-45px);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    gap:10px
+}
+.destacadas img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    margin-right: 40px;
+}
+.destacadas p{
+    margin-right: 40px;
+}
+.linea{
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    background-color: #dbdbdb;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+    grid-template-rows: repeat(5,auto);
+    gap: 2%;
+    height: auto;
+}
+.contenedor-grid div > img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+.contenido a{
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navegacion2{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.footer-links a {
+    margin: 0px;
+    color: #333333;
+    text-decoration: none;
+}
